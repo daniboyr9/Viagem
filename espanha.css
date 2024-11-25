@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #8e0000d8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.incr {
+    margin-top: 90px;
+}
+
+.esp {
+    font-size: 27px;
+    text-underline-offset: 3px;
+}
+
+.img {
+    height: 295px;
+    width: 240px;
+    border-radius: 5px;
+}
+
+.clica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.clica2 {
+    padding-top: 20px;
+    color: #ffcf00;
+    font-size: 20px;
+    font-family: Chalkduster, fantasy;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+u {
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}

@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    background-color: #660103;
+}
+
+body {
+    margin: 0;
+    background-image: url(img/bandeira.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.principal {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.título {
+    margin-top: 150px;
+}
+
+.botão {
+    margin-bottom: 140px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+ul {
+    font-size: 19px;
+    margin-bottom: 20px;
+    font-family: Didot, serif;
+    color: white;
+}
+
+button {
+    background-color: black;
+    font-family: Georgia, serif;
+    padding: 10;
+    border: 15;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
